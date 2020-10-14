@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+    <title>hello!i am chaebin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="C:\Users\채빈\Desktop\wecode\cb_test.css">
+
+</head>
+
+
+
+<body id="colorCont" style="z-index: -9999;">
+    <!-- <div class="vl" style="width: 100%;"></div>  -->
+    <div id="navColor" class="topnav">
+        <div class="container">
+            <button class="btn-5" onclick="location.href='cb_test2.html'">CHAEBIN</button>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 고양이 사진 첨부 -->
+    <div class="apple_box2"><a href="cb_test2.html"><img class="profile_images2"  src="img/cat0.png" title="야옹"/></div>
+
+
+
+
+
+
+
+    <div class="tmi_3" id="a">Hello,i am <b style="color: #CD0000;">chaebin</b></div>
+
+
+
+
+
+
+
+    <div class="tmi_4" id="a">If you want to know me,<br>
+        press the <b style="color: #CD0000;">button!</b></div>
+
+
+</body>
+
+<footer>
+    <p align="center"> © 2020 by Chaebin Han </p>
+</footer>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function colorChange() {
+        var color = ["#FC5C7D", "#FAFAFA", "#38ef7d", "#fffbd5", "#FFFFFF", "#CAC531"];
+
+        var num = Math.floor(Math.random() * color.length);
+        var bodyTag = document.getElementById("colorCont");
+        var navTag = document.getElementById("navColor");
+
+        bodyTag.style.backgroundColor = color[num];
+        navTag.style.backgroundColor = color[num];
+    }
+</script>
