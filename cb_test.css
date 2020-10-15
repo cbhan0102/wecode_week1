@@ -188,7 +188,25 @@
       
     }
 
+
     
+
+    
+    .profile_images3 {
+      width: 350px;
+      position:fixed; 
+      top:0;
+      left:0;
+      right:0;
+      margin:auto;
+      bottom:0;
+      
+    }
+
+
+
+
+
     /*세로로 쓰기*/
       .tmi {
 
@@ -254,13 +272,23 @@
                   color: #030303;
                   width: 585px;
                   height: 0px;
-                  /* -webkit-transform: rotate(90deg); 
-                  -ms-transform: rotate(90deg);  */
                   line-height: 40px; /*행간*/
                   letter-spacing: 3px; /*자간*/
                   position:absolute; 
                   top:600px;
                   left: 1200px;
+                }
+
+
+                .tmi_5 {
+                  font-size:6ex;
+                  font-weight: 200;
+                  color: #030303;
+                  letter-spacing: 3px; /*자간*/
+                  position:absolute; 
+                  top:130px;
+                  left: 825px;
+
                 }
         
 
@@ -287,7 +315,7 @@
     /*고양이 아이콘 버튼*/
     input.img-button {
       width: 300px;
-      height: 300px;
+      height: 250px;
       left: -110px;
       background: url('https://cdn.pixabay.com/photo/2016/10/14/17/55/cat-1740777_960_720.png'); /*임시로 고양이 벡터이미지 첨부*/
       background-position: center;
@@ -334,3 +362,74 @@
 
 
 
+
+
+
+    /*왼쪽 말풍선*/
+     .balloon_02 {
+      position:relative;
+      margin: 40px;
+      width:300px;
+      height:105px;
+       background:#333333;
+       border-radius: 12px;
+       color: white;
+       line-height: 100px;
+       
+     }
+     .balloon_02:after {
+      content:"";
+      position:absolute;
+      right:0px;
+      top:10px;
+      width: 0;
+      height: 0;
+      border: 24px solid transparent;
+	border-left-color: #000000;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: 58px;
+  margin-right: -15px;
+     }
+
+
+     
+     /*오른쪽 말풍선*/
+      .balloon_03 {
+      position:relative;
+      margin: 40px;
+      width:300px;
+      height:105px;
+       background:#333333;
+       border-radius: 12px;
+       color: white;
+       line-height: 100px;
+       
+     }
+     .balloon_03:after {
+      border-top:15px solid #333333;
+      border-left: 15px solid transparent;
+      border-right: 0px solid transparent;
+      border-bottom: 0px solid transparent;
+      content:"";
+      position:absolute;
+      top:10px;
+      left:-15px;
+     }
+ 
+
+     
+     .memo {
+      color: rgb(167, 165, 165);
+      position:absolute; 
+      top:660px;
+      right: 160px;
+     }
+     
+     
+     .memo2 {
+      color: rgb(167, 165, 165);
+      position:absolute; 
+      top:660px;
+      right: 200px;
+     }

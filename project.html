@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+<head>
+    <title>chaebin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="C:\Users\채빈\Desktop\wecode\cb_test.css">
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+    <div id="navColor" class="topnav">
+        <div class="container">
+            <button class="btn-5" onclick="location.href='main.html'">CHAEBIN</button>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="tmi_5">
+            <span><b>My project</b></span>
+        </div>
+    </section>
+
+
+    <section style="margin-left:280px; margin-top: 200px;">
+        <div style="float: left;">
+            <div class="balloon_02" style="font-size:22px; text-align:center;">Project 1</div>
+            <div class="balloon_02" style="font-size:22px; text-align:center;">Project 2</div>
+            <div class="balloon_02" style="font-size:22px; text-align:center;">Project 3</div>
+        </div>
+    </section>
+
+
+    <section style="margin-right:280px;">
+        <div style="float: right;">
+            <div class="balloon_03" style="font-size:22px; text-align:center;">Project 4</div>
+            <div class="balloon_03" style="font-size:22px; text-align:center;">Project 5</div>
+            <div class="balloon_03" style="font-size:22px; text-align:center;">Project 6</div>
+        </div>
+    </section>
+
+
+    <section>
+        <!-- 고양이 사진 첨부 -->
+        <div class="apple_box2"><a href="main.html">
+                <img class="profile_images3" src="img/cat0.png" title="야옹" /></div>
+    </section>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p align="center"> © 2020 by Chaebin Han </p>
+</footer>
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function colorChange() {
+        var color = ["#FC5C7D", "#FAFAFA", "#38ef7d", "#fffbd5", "#FFFFFF", "#CAC531"];
+
+        var num = Math.floor(Math.random() * color.length);
+        var bodyTag = document.getElementById("colorCont");
+        var navTag = document.getElementById("navColor");
+
+        bodyTag.style.backgroundColor = color[num];
+        navTag.style.backgroundColor = color[num];
+    }
+</script>
