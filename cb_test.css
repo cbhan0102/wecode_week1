@@ -292,6 +292,23 @@
                 }
         
 
+
+                .tmi_6 {
+                  font-size:4ex;
+                  font-weight: 200;
+                  color: #030303;
+                  letter-spacing: 3px; /*자간*/
+                  position:absolute; 
+                  top:130px;
+                  left: 38%;
+
+                }
+        
+                .tmi_7{
+                  position: absolute;
+                  top: 400px;
+                  margin-left: 43%;
+                }
                 
 
 
@@ -353,10 +370,10 @@
   
     .column{
       float: left;
-      width: 25%;
+      width: 18%;
       height: 300px;
-      margin-left: 7%;
-      
+      margin-left: 12%;      
+      margin-bottom: 10%;
     }
     
 
@@ -433,3 +450,15 @@
       top:660px;
       right: 200px;
      }
+
+
+     .icon {
+      text-align: center;
+      margin: 10px; 
+      width:70px;
+      height:70px;
+      float:left;/*블럭요소를 가로정렬 할 때 사용*/
+    }
+
+    
+ 
